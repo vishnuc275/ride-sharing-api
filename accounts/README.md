@@ -17,10 +17,10 @@ Features
 
 Tech Stack
 
-- Python 3.x
-- Django 4.x
-- Django REST Framework
-- djangorestframework-simplejwt
+- Python 3.10.12
+- Django 5.2.4
+- Django REST Framework 3.16.0
+- djangorestframework-simplejwt 5.5.1
 - SQLite (default)
 
 ---
@@ -73,7 +73,7 @@ python manage.py migrate
 
 python manage.py runserver
 
--------------------------------
+---
 
 
 Authentication
@@ -86,7 +86,7 @@ POST /api/token/ – Get access and refresh tokens
 POST /api/token/refresh/ – Refresh token
 
 
--------------------------------
+---
 
 User Roles
 
@@ -100,7 +100,7 @@ POST /api/register/
 }
 
 
--------------------------------
+---
 
 API Endpoints
 
